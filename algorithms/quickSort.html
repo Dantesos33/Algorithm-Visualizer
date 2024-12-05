@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Sort Visualizer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../css/quick.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Quick Sort Visualizer</h1>
+
+        <!-- Input for number of array elements -->
+        <div class="controls">
+            <input type="number" id="numElements" class="input" placeholder="No of Elements" />
+            <button id="generateArrayBtn" class="button">Generate Array</button>
+        </div>
+
+        <!-- Dynamically generated array input fields -->
+        <div id="arrayInputsContainer" class="array-inputs-container"></div>
+
+        <!-- Start and Reset buttons -->
+        <div class="controls">
+            <button id="startBtn" class="button">Start Quick Sort</button>
+            <button id="resetBtn" class="button">Reset</button>
+        </div>
+
+        <!-- Displaying the array elements -->
+        <div id="arrayContainer" class="array-container">
+            <!-- Array elements will be shown here -->
+        </div>
+    </div>
+
+    <script src="../js/quickSort.js"></script>
+</body>
+
+</html>

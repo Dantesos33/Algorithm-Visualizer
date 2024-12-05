@@ -4,38 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Binary Search Visualizer</title>
+    <title>Algorithm Visualizer</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+
     <div class="container">
-        <h1>Binary Search Visualizer</h1>
+        <h1>Welcome to Algorithm Visualizer</h1>
 
-        <!-- Input for number of array elements -->
         <div class="controls">
-            <input type="number" id="numElements" class="input" placeholder="No of Elements" />
-            <button id="generateArrayBtn" class="button">Generate Array</button>
+            <a href="./algorithms/binarySearch.html" class="button">Binary Search</a>
+            <a href="./algorithms/twoPointers.html" class="button">Two Pointers</a>
+            <a href="./algorithms/mergeSort.html" class="button">Merge Sort</a>
+            <a href="./algorithms/quickSort.html" class="button">Quick Sort</a>
         </div>
 
-        <!-- Dynamically generated array input fields -->
-        <div id="arrayInputsContainer" class="array-inputs-container"></div>
-
-        <!-- Target input and search button -->
-        <div class="controls">
-            <input type="number" id="target" class="input" placeholder="Enter Target" />
-            <button id="startBtn" class="button">Start Search</button>
-            <button id="resetBtn" class="button">Reset</button>
-        </div>
-
-        <!-- Displaying the array elements -->
-        <div id="arrayContainer" class="array-container">
-            <!-- Array elements will be shown here -->
-        </div>
     </div>
 
-    <script src="script.js"></script>
+
 </body>
 
 </html>

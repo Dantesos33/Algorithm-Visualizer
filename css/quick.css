@@ -1,0 +1,25 @@
+
+
+.highlight-pivot {
+    background-color: lightblue;
+}
+
+.highlight-partition {
+    background-color: lightgreen;
+}
+
+.highlight-left {
+    background-color: lightblue;
+}
+
+.highlight-right {
+    background-color: lightcoral;
+}
+
+.highlight-mid {
+    background-color: orange;
+}
+
+.highlight-target {
+    background-color: red;
+}

@@ -12,6 +12,10 @@ input[type="number"]::-webkit-inner-spin-button {
     margin: 0;
 }
 
+a{
+    text-decoration: none;
+}
+
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -38,11 +42,12 @@ h1 {
 }
 
 .controls {
-    margin-bottom: 20px;
+    margin-top: 1rem;
     display: flex;
     justify-content: center;
     gap: 20px;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .input {
@@ -116,6 +121,12 @@ h1 {
 }
 
 .highlight-target {
+    background-color: #9b59b6;
+    color: white;
+    font-weight: bold;
+}
+
+.highlight-merge {
     background-color: #9b59b6;
     color: white;
     font-weight: bold;

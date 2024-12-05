@@ -1,0 +1,27 @@
+
+
+.highlight-left {
+    background-color: #45a049;
+    color: white;
+    font-weight: bold;
+}
+
+.highlight-right {
+    background-color: #bf4242;
+    color: white;
+    font-weight: bold;
+}
+
+.highlight-merge {
+    background-color: #9b59b6;
+    color: white;
+    font-weight: bold;
+}
+
+.highlight-target {
+    background-color: #f39c12;
+    color: white;
+    font-weight: bold;
+}
+
+
